@@ -1,2 +1,2 @@
-i#!/usr/bin/python3
-$PYCODE
+#!/usr/bin/python3
+echo $PYCODE | python3
