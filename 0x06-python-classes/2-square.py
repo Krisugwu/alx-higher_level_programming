@@ -3,7 +3,7 @@
 A Square Class
 """
 class Square:
-    def __init__(self, size = 0):
+    def __init__(self, size=0):
         """__init__
         The __init__ method initializes the size value of the square.
         Attributes:
@@ -11,7 +11,8 @@ class Square:
         Raises:
         TypeError: If `size` type is not `int`.
         ValueError: If `size` is less than `0`.
-        ze must be >= 0')"""
+        ze must be >= 0')
+        """
         if type(size) is not int:
             raise TypeError('size must be an integer')
         elif size < 0:
