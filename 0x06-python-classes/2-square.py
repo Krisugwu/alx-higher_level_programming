@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 # 2-square.py
-"""Define a class Square."""
+""" Define a class Square """
 
 
 class Square:
     def __init__(self, size=0):
+
         """__init_
         The __init__ method initializes the size value of the square
         Attributes:
@@ -12,7 +13,7 @@ class Square:
         Raises:
         TypeError: If `size` type is not `int`.
         ValueError: If `size` is less than `0`.
-        ze must be >= 0')
+
         """
         if type(size) is not int:
             raise TypeError("size must be an integer")
