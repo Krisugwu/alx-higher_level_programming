@@ -16,6 +16,7 @@ class Rectangle:
             width (:obj:int, optional): The width of the Rectangle.
             height (:obj:int, optional): The height of the Rectangle.
         """
+        type(self).number_of_instances += 1
         self.width = width
         self.height = height
 
